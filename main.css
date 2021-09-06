@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.splide{
+    margin-left: 6%;
+    margin-top: 8%;
+}
+
+body{
+    background-color: rgb(230, 221, 221);
+}
+
+.card{
+    position: relative;
+    display: inline-block;
+}
+.card .card-top{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.card:hover .card-top{
+    display: inline;
+}
+
+.wrapper{
+    max-width: 330px;
+    display: flex;
+    background-color: white;
+}
+
+.text-container{
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 15%;
+}
+
+.item-name{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(78, 74, 74);
+}
+
+.price-container{
+    padding: 15px;
+}
+
+.price-main{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(69, 65, 65);
+}
